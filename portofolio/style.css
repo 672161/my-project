@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    box-sizing: border-box;
+width: 100%;
+background-color: #f0f0f0;
+justify-content: space-between;
+position: fixed;
+padding: 10px 200px;
+z-index: 999;
+}
+.logo{
+text-decoration: none;
+font-size: 1.8em;
+font-weight: 700;
+color:#3a6cf4;
+text-transform: uppercase;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 30px; ;
+}
+
+nav a{
+text-decoration: none;
+font-size: 1.2em;
+font-weight: 500;
+color:#3a6cf4;
+}
+nav a:hover{
+    color:#6d54c4;
+}
+.main{
+    display: flex;
+    height: 100hv;
+    align-items: "bottom-center";
+    padding:100px 200px
+}
+.s{
+    align-items: center;
+}
+.o{
+
+}
+.card{
+background-color: white;
+width: 21.25em;
+padding: 25px;
+margin: 15px;
+box-shadow: 0 10px 20px black;
+}
+.card:hover{
+transform:scale(1.1);
+}
+body{
+    --main-blue:#3a6cf4;
+}
+.titel{
+    color:var(--main-blue);
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 2.2em;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
